@@ -7,8 +7,8 @@ body.append(div);
 
 let browserName = navigator.appName;
 let text = "You are using " + browserName + "version " + navigator.appVersion;
-function text() {
+function textContent() {
 	div.innerHTML = text;
 }
 
-body.onload = text;
+body.onload = textContent;
