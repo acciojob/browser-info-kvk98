@@ -6,10 +6,9 @@ let body = getElementsByTagName("body")[0];
 body.append(div);
 
 let browserName = navigator.appName;
-let text = div.innerHTML;
+let text = "You are using " + browserName + "version " + navigator.appVersion;
 function text() {
-	return text;
+	div.innerHTML = text;
 }
-text = "You are using " + browserName + "version " + navigator.appVersion;
 
 body.onload = text();
