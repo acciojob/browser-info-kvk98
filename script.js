@@ -11,4 +11,4 @@ function text() {
 	div.innerHTML = text;
 }
 
-body.onload = text();
+body.onload = text;
